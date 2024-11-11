@@ -1,0 +1,20 @@
+What do you mean by Function ?
+
+Ans:= A java script function block of code designed to perform a particuler task.
+
+Java Script data types
+
+B : boolen data type , bitwise data type
+O :  object data type
+N : null data type , number data type
+U : undefined data type
+S : string data type , symbol data type
+
+java script operater
+
+A : arthamatic operater , assiment operater
+B : bitise operater
+C : coprision operater
+L : logical operater
+S : string operater
+T : ternary operater, type operater

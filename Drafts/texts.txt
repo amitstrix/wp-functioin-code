@@ -1,0 +1,15 @@
+Point 1.   Yes, I have checked everything, everything matches. The products in the square are showing only once. If you have any issue then you can share the screenshot with me.
+
+Point 2.  In Can Your Share, 2 pages of tax rates are showing on the screenshot.
+
+Point 3.  Calculates shipping costs based on the weight of a customer's order. This method can help ensure customers pay a fair price for shipping and avoid undercharging for heavy items.
+Shipping here: https://urbanredeux.com/wp-admin/admin.php?page=wc-settings&tab=shipping
+second Weight Based Shipping 6 Preview we have disabled
+
+Point 4.   If we delete this plugin then the hide shipping concept will be disabled.
+
+Point 6.  No, I haven't done any testing.
+
+Point 7.  I mean the payment method is live, if you want to test the order then the app will have to use real card.
+
+Point 9.  If we delete any plugin then the functionality of these plugins will be lost.

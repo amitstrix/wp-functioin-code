@@ -1,0 +1,192 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f3f3;
+}
+
+/* Outer container for red border */
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+/* Inner container for the layout with red border */
+.thank-you-container {
+    display: flex;
+    height: 90vh;
+    max-width: 90%; /* Adjusted width */
+    margin: 0 auto;
+    background-color: white;
+    border: 10px solid #f36226; /* Red border */
+    border-radius: 50px; /* Smooth rounded corners */
+    overflow: hidden;
+}
+
+/* Left Section (Image) */
+.left-section {
+    width: 45%; /* Adjusted width */
+    position: relative;
+    background-color: #004a59; /* Dark teal background for the left section */
+    border-bottom-left-radius: 40px;
+    overflow: hidden;
+}
+
+.left-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 74, 89, 0.7); /* Transparent teal overlay */
+    z-index: 2;
+}
+
+/* Right Section (Content) */
+.right-section {
+    width: 55%; /* Adjusted width */
+    padding: 40px; /* Adjusted padding to keep balance */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 40px;
+}
+
+/* Logo */
+.logo h1 {
+    font-size: 44px;
+    color: #f36226; /* Orange */
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo h1 span {
+    color: #004a59; /* Dark Teal */
+}
+
+.logo h3 {
+    font-size: 16px;
+    color: #004a59;
+    margin-top: -10px;
+    letter-spacing: 3px;
+}
+
+/* Thank You Message */
+.thank-you-message h2 {
+    font-size: 48px;
+    color: #f36226;
+    font-family: 'Georgia', serif;
+}
+
+.thank-you-message p {
+    font-size: 22px;
+    color: #004a59;
+}
+
+/* Star Rating */
+.stars {
+    font-size: 24px;
+    color: #f36226;
+    margin: 20px 0;
+}
+
+/* Contact Information */
+.contact-info p {
+    font-size: 16px;
+    color: #004a59;
+    text-align: center;
+}
+
+.phone-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f36226;
+}
+
+/* Explore Button */
+.explore-button {
+    background-color: #f36226;
+    color: white;
+    padding: 12px 35px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 20px 0;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-family: 'Arial', sans-serif;
+}
+
+.explore-button:hover {
+    background-color: #e14b17;
+}
+
+/* Social Media */
+.social-media {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-media p {
+    font-size: 16px;
+    color: #004a59;
+}
+
+.icons a {
+    margin: 0 10px;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Responsive Design for Smaller Screens */
+@media screen and (max-width: 768px) {
+    .thank-you-container {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
+    .left-section, .right-section {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .right-section {
+        padding: 30px;
+    }
+
+    .logo h1 {
+        font-size: 36px;
+    }
+
+    .thank-you-message h2 {
+        font-size: 40px;
+    }
+
+    .explore-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
